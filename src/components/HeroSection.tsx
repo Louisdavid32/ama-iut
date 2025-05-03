@@ -7,6 +7,8 @@ const HeroSection: React.FC = () => {
 
   useEffect(() => {
     if (textRef.current) {
+      // Applique directement une opacité de 1 au lieu de compter uniquement sur l'animation CSS
+      textRef.current.style.opacity = "1";
       textRef.current.classList.add('animate-fade-in');
     }
   }, []);
@@ -15,7 +17,7 @@ const HeroSection: React.FC = () => {
     <div className="relative min-h-screen bg-hero-gradient flex items-center overflow-hidden">
       <div className="wave-divider"></div>
       <div className="container mx-auto px-4 pt-16">
-        <div ref={textRef} className="max-w-3xl opacity-0">
+        <div ref={textRef} className="max-w-3xl" style={{ opacity: "0", transition: "opacity 0.5s ease-out" }}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Formez-vous à l'<span className="text-ama-gold">AMA</span>, une expertise d'avenir
           </h1>

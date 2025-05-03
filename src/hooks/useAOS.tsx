@@ -13,6 +13,9 @@ const useAOS = () => {
         
         if (elementPosition < windowHeight - elementVisible) {
           element.classList.add('animate-fade-in');
+          // Assurez-vous que l'élément est visible
+          (element as HTMLElement).style.opacity = '1';
+          
           const delay = element.getAttribute('data-aos-delay');
           if (delay) {
             (element as HTMLElement).style.animationDelay = `${parseInt(delay)}ms`;
