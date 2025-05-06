@@ -88,10 +88,10 @@ const TimelineSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div>
             <h3 className="text-2xl font-bold text-ama-blue-500 mb-6">Compétences acquises</h3>
-            <SkillBar name="Analyse de données" percentage={90} />
+            <SkillBar name="Assistant de direction " percentage={90} />
             <SkillBar name="Management de projet" percentage={85} />
-            <SkillBar name="Développement Web" percentage={80} />
-            <SkillBar name="Marketing digital" percentage={75} />
+            <SkillBar name="Assistant commercial" percentage={80} />
+            <SkillBar name="Assistant marketin" percentage={75} />
           </div>
           
           <div className="flex flex-col justify-center space-y-6">
@@ -100,19 +100,19 @@ const TimelineSection: React.FC = () => {
               <ul className="space-y-2 text-ama-gray">
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Chef de projet digital
+                  Postes d'assistance administrative
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Analyste marketing
+                  Ressources humaines
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Développeur Web
+                  Secteur commercial et marketing
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Consultant en transformation digitale
+                  Assistant administratif
                 </li>
               </ul>
             </div>
@@ -131,3 +131,4 @@ const TimelineSection: React.FC = () => {
 };
 
 export default TimelineSection;
+

@@ -59,11 +59,17 @@ const CampusSection: React.FC = () => {
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 mt-8 transform hover:scale-105 transition-transform">
-              <img 
-                src="/img/11.jpeg"
-                alt="Innovation AMA" 
-                className="w-full h-full object-cover"
-              />
+            <video 
+              className="w-full h-full object-cover"
+              autoPlay 
+              loop 
+              muted 
+              playsInline 
+              poster="/img/11.jpeg"
+            >
+              <source src="/img/WhatsApp Video 2025-05-05 at 20.03.46.mp4" type="video/mp4" />
+              Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
             </div>
           </div>
         </div>
