@@ -182,11 +182,11 @@ const Admission = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <Check className="text-ama-gold w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>Ouverture des candidatures : 15 janvier</span>
+                      <span>Ouverture des candidatures </span>
                     </li>
                     <li className="flex items-start">
                       <Check className="text-ama-gold w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
-                      <span>Date limite de dépôt : 30 juin</span>
+                      <span>Concours : Aout</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="text-ama-gold w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />

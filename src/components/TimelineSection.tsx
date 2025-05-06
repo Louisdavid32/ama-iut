@@ -100,7 +100,7 @@ const TimelineSection: React.FC = () => {
               <ul className="space-y-2 text-ama-gray">
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Postes d'assistance administrative
+                  Assurant Ressources humaines
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
@@ -108,11 +108,11 @@ const TimelineSection: React.FC = () => {
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Secteur commercial et marketing
+                  Assistant administratif 
                 </li>
                 <li className="flex items-center">
                   <div className="bg-ama-blue-500 w-2 h-2 rounded-full mr-2"></div>
-                  Assistant administratif
+                  Assistant de direction
                 </li>
               </ul>
             </div>
