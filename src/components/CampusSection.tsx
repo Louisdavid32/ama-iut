@@ -39,28 +39,28 @@ const CampusSection: React.FC = () => {
           <div className="grid grid-cols-2 gap-4" data-aos="fade-in" data-aos-delay="300">
             <div className="rounded-xl overflow-hidden h-64 transform hover:scale-105 transition-transform">
               <img 
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                src="/img/8.jpeg"
                 alt="Campus AMA" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 mt-8 transform hover:scale-105 transition-transform">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                src="/img/12.jpeg"
                 alt="Équipements AMA" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 transform hover:scale-105 transition-transform">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                src="/img/22.jpeg"
                 alt="Technologie AMA" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 mt-8 transform hover:scale-105 transition-transform">
               <img 
-                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                src="/img/11.jpeg"
                 alt="Innovation AMA" 
                 className="w-full h-full object-cover"
               />

@@ -16,7 +16,7 @@ const testimonials: Testimonial[] = [
     id: 1,
     name: "Sophie Martin",
     role: "Diplômée 2023",
-    image: "https://i.pravatar.cc/150?img=5",
+    image: "/img/5.jpeg",
     content: "La formation AMA a complètement transformé ma vision du secteur. J'ai aujourd'hui un poste à responsabilité dans une entreprise leader de l'industrie.",
     company: "TechVision Inc."
   },
@@ -24,7 +24,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "Alexandre Dupont",
     role: "Diplômé 2022",
-    image: "https://i.pravatar.cc/150?img=12",
+    image: "/img/18.jpeg",
     content: "L'approche pratique et les intervenants de qualité m'ont permis d'acquérir des compétences directement applicables en entreprise.",
     company: "DataSphere"
   },
@@ -32,7 +32,7 @@ const testimonials: Testimonial[] = [
     id: 3,
     name: "Emma Bernard",
     role: "Étudiante en 2ème année",
-    image: "https://i.pravatar.cc/150?img=9",
+    image:"/img/8.jpeg",
     content: "Les projets réels et l'accompagnement personnalisé font toute la différence. Je me sens déjà prête pour le monde professionnel.",
   }
 ];
@@ -42,7 +42,7 @@ const TestimonialsSection: React.FC = () => {
     <section className="py-20 bg-gradient-to-br from-ama-blue-50 to-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-ama-dark mb-4" data-aos="fade-in">Ils ont choisi l'<span className="text-ama-gold">AMA</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-ama-dark mb-4" data-aos="fade-in">Ils ont choisi <span className="text-ama-gold">AMA</span></h2>
           <p className="text-lg text-ama-gray max-w-2xl mx-auto" data-aos="fade-in" data-aos-delay="100">
             Découvrez les témoignages de nos étudiants et diplômés qui partagent leur expérience
           </p>
@@ -83,7 +83,7 @@ const TestimonialsSection: React.FC = () => {
         <div className="mt-16 text-center" data-aos="fade-in">
           <div className="p-6 bg-white rounded-xl shadow-lg max-w-2xl mx-auto border-l-4 border-ama-gold">
             <p className="text-xl text-ama-dark font-medium italic">
-              "L'AMA forme des experts reconnus dans le secteur. Nous recrutons régulièrement leurs diplômés pour leur expertise et leur capacité d'adaptation."
+              "AMA forme des experts reconnus dans le secteur. Nous recrutons régulièrement leurs diplômés pour leur expertise et leur capacité d'adaptation."
             </p>
             <div className="mt-4">
               <p className="font-bold">Marc Lejeune</p>

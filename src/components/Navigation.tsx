@@ -29,29 +29,29 @@ const Navigation: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className="flex items-center">
           <div className="font-serif text-2xl font-bold text-ama-blue-500">
-            École <span className="text-ama-gold">AMA</span>
+            IUT-<span className="text-ama-gold">AMA</span>
           </div>
         </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
+          <a href="/" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
             Accueil
           </a>
-          <a href="#" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
+          <a href="/formation" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
             Formation
           </a>
-          <a href="#" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
+          <a href="/admission" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
             Admission
           </a>
-          <a href="#" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
+          <a href="/contact" className="link-underline font-medium hover:text-ama-blue-500 transition-colors">
             Contact
           </a>
         </nav>
 
-        <Button className="hidden md:block bg-ama-blue-500 hover:bg-ama-blue-600 text-white">
+        {/*<Button className="hidden md:block bg-ama-blue-500 hover:bg-ama-blue-600 text-white">
           S'inscrire
-        </Button>
+        </Button>*/}
 
         {/* Mobile menu button */}
         <button 
@@ -70,21 +70,21 @@ const Navigation: React.FC = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto py-4 space-y-4 flex flex-col">
-            <a href="#" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
+            <a href="/" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
               Accueil
             </a>
-            <a href="#" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
+            <a href="/formation" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
               Formation
             </a>
-            <a href="#" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
+            <a href="/admission" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
               Admission
             </a>
-            <a href="#" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
+            <a href="/contact" className="px-2 py-2 hover:bg-ama-blue-50 rounded">
               Contact
             </a>
-            <Button className="bg-ama-blue-500 hover:bg-ama-blue-600 text-white">
+            {/*<Button className="bg-ama-blue-500 hover:bg-ama-blue-600 text-white">
               S'inscrire
-            </Button>
+            </Button>*/}
           </div>
         </div>
       )}

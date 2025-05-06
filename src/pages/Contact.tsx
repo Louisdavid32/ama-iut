@@ -48,9 +48,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-xl font-bold text-ama-dark mb-2">Adresse</h3>
                       <p className="text-ama-gray">
-                        123 Avenue de la Formation<br />
-                        75001 Paris<br />
-                        France
+                      BP 8698, Institut Universitaire de Technologie <br />
+                      Douala, Cameroun <br />
                       </p>
                     </div>
                   </div>
@@ -61,7 +60,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-ama-dark mb-2">Téléphone</h3>
-                      <p className="text-ama-gray">+33 (0)1 23 45 67 89</p>
+                      <p className="text-ama-gray">+237 6 99 78 70 87</p>
                     </div>
                   </div>
                   
@@ -71,7 +70,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-ama-dark mb-2">Email</h3>
-                      <p className="text-ama-gray">contact@ama-formation.fr</p>
+                      <p className="text-ama-gray">katsangim@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -84,11 +83,11 @@ const Contact = () => {
                   <ul className="space-y-2">
                     <li className="flex justify-between">
                       <span className="text-ama-gray">Lundi - Vendredi</span>
-                      <span className="font-medium">9h00 - 18h00</span>
+                      <span className="font-medium">7h00 - 22h00</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-ama-gray">Samedi</span>
-                      <span className="font-medium">9h00 - 12h00</span>
+                      <span className="font-medium">7h00 - 22h00</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-ama-gray">Dimanche</span>
@@ -159,25 +158,25 @@ const Contact = () => {
             <div className="text-center mb-12" data-aos="fade-up">
               <h2 className="text-3xl font-bold text-ama-blue-600 mb-4">Nous localiser</h2>
               <p className="text-ama-gray max-w-2xl mx-auto">
-                Notre campus est idéalement situé au cœur de Paris, facilement accessible en transports en commun
+                Retrouvez-nous à l'IUT de Douala, situé dans le quartier de Ndogbong. Facilement accessible depuis les grands axes de la ville.
               </p>
             </div>
-            
+
             <div className="rounded-lg overflow-hidden shadow-md h-[400px]" data-aos="fade-up">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914406081893!2d2.292292615509614!3d48.85836397928678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sus!4v1629462115485!5m2!1sen!2sus" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen={true} 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.824884884387!2d9.742915373860663!3d4.05610479591765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610d9f57e93471%3A0x3b731da84fc81386!2sInstitut%20Universitaire%20De%20Technologies%20De%20Douala!5e0!3m2!1sfr!2scm!4v1746459906845!5m2!1sfr!2scm"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
                 loading="lazy"
-                title="Carte du campus"
+                title="Carte de l'IUT de Douala"
               ></iframe>
             </div>
           </div>
         </div>
-      </section>
-      
+      </section> 
+
       {/* Team Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
@@ -193,7 +192,7 @@ const Contact = () => {
               <div className="text-center" data-aos="fade-up" data-aos-delay="100">
                 <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" 
+                    src="/img/2.jpeg" 
                     alt="Sophie Martin"
                     className="w-full h-full object-cover"
                   />
@@ -207,7 +206,7 @@ const Contact = () => {
               <div className="text-center" data-aos="fade-up" data-aos-delay="200">
                 <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
+                    src="/img/6.jpeg" 
                     alt="Thomas Dupont"
                     className="w-full h-full object-cover"
                   />
@@ -221,7 +220,7 @@ const Contact = () => {
               <div className="text-center" data-aos="fade-up" data-aos-delay="300">
                 <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                    src="/img/3.jpeg" 
                     alt="Marie Leclerc"
                     className="w-full h-full object-cover"
                   />

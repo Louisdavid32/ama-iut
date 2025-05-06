@@ -207,7 +207,7 @@ const Admission = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
               <div className="rounded-lg overflow-hidden shadow-md" data-aos="fade-right">
                 <img 
-                  src="https://images.unsplash.com/photo-1573166364524-d9dbfd8bbf83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" 
+                  src="/img/15.jpeg" 
                   alt="Étudiants en formation"
                   className="w-full h-full object-cover"
                 />
@@ -216,7 +216,7 @@ const Admission = () => {
               <div data-aos="fade-left">
                 <h2 className="text-3xl font-bold text-ama-blue-600 mb-6">Pourquoi nous rejoindre ?</h2>
                 <p className="text-ama-gray mb-4">
-                  L'AMA offre un environnement d'apprentissage stimulant, des enseignants passionnés et 
+                  AMA offre un environnement d'apprentissage stimulant, des enseignants passionnés et 
                   un réseau professionnel étendu pour vous aider à réussir.
                 </p>
                 <p className="text-ama-gray mb-6">

@@ -17,7 +17,7 @@ const CarouselSection: React.FC = () => {
       id: 1,
       title: "Découvrez notre campus moderne",
       description: "Des installations à la pointe de la technologie pour favoriser votre apprentissage et votre développement professionnel.",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      image: "/img/1.jpeg",
       buttonText: "Visiter le campus",
       buttonLink: "/contact"
     },
@@ -25,7 +25,7 @@ const CarouselSection: React.FC = () => {
       id: 2,
       title: "Formation professionnalisante",
       description: "Notre programme est conçu pour répondre aux besoins actuels du marché du travail et vous préparer à une carrière réussie.",
-      image: "https://images.unsplash.com/photo-1573166364524-d9dbfd8bbf83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+      image: "/img/2.jpeg",
       buttonText: "Voir le programme",
       buttonLink: "/formation"
     },
@@ -33,11 +33,188 @@ const CarouselSection: React.FC = () => {
       id: 3,
       title: "Rejoignez notre communauté",
       description: "Intégrez un réseau dynamique d'étudiants, d'enseignants et de professionnels qui vous soutiendront tout au long de votre parcours.",
-      image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80",
+      image: "/img/3.jpeg",
       buttonText: "Postuler maintenant",
       buttonLink: "/admission"
+    },
+    {
+      id: 4,
+      title: "Participez à nos ateliers pratiques",
+      description: "Mettez en application vos connaissances grâce à des projets concrets encadrés par des professionnels du secteur.",
+      image: "/img/4.jpeg",
+      buttonText: "Découvrir les ateliers",
+      buttonLink: "/ateliers"
+    },
+    {
+      id: 5,
+      title: "Accompagnement personnalisé",
+      description: "Bénéficiez d’un suivi académique et professionnel tout au long de votre formation pour maximiser votre réussite.",
+      image: "/img/5.jpeg",
+      buttonText: "En savoir plus",
+      buttonLink: "/accompagnement"
+    },
+    {
+      id: 6,
+      title: "Événements étudiants",
+      description: "Vivez une vie étudiante dynamique grâce à nos clubs, compétitions et événements culturels tout au long de l’année.",
+      image: "/img/6.jpeg",
+      buttonText: "Explorer les événements",
+      buttonLink: "/vie-etudiante"
+    },
+    {
+      id: 7,
+      title: "Stages et opportunités",
+      description: "Accédez à un réseau de partenaires pour des stages enrichissants et des débouchés professionnels concrets.",
+      image: "/img/7.jpeg",
+      buttonText: "Consulter les offres",
+      buttonLink: "/stages"
+    },
+    {
+      id: 8,
+      title: "Technologies émergentes",
+      description: "Formez-vous sur les dernières innovations comme l'IA, la cybersécurité ou la blockchain grâce à des modules spécialisés.",
+      image: "/img/8.jpeg",
+      buttonText: "Voir les modules",
+      buttonLink: "/technologies"
+    },
+    {
+      id: 9,
+      title: "Ouverture à l'international",
+      description: "Profitez de nos accords avec des universités partenaires pour vivre une expérience d’apprentissage à l’étranger.",
+      image: "/img/9.jpeg",
+      buttonText: "Voir les partenariats",
+      buttonLink: "/international"
+    },
+    {
+      id: 10,
+      title: "Équipe pédagogique experte",
+      description: "Apprenez auprès d'enseignants et intervenants reconnus pour leur expertise et leur passion de transmettre.",
+      image: "/img/10.jpeg",
+      buttonText: "Rencontrer l’équipe",
+      buttonLink: "/equipe"
+    },
+    {
+      id: 11,
+      title: "Projets collaboratifs",
+      description: "Travaillez en équipe sur des projets transversaux pour développer vos compétences en gestion et en communication.",
+      image: "/img/11.jpeg",
+      buttonText: "Voir des exemples",
+      buttonLink: "/projets"
+    },
+    {
+      id: 12,
+      title: "Bibliothèque et ressources numériques",
+      description: "Accédez à un large catalogue de ressources pédagogiques en ligne pour enrichir vos apprentissages.",
+      image: "/img/12.jpeg",
+      buttonText: "Accéder aux ressources",
+      buttonLink: "/bibliotheque"
+    },
+    {
+      id: 13,
+      title: "Témoignages d'anciens élèves",
+      description: "Découvrez les parcours inspirants de nos diplômés et comment ils ont atteint leurs objectifs professionnels.",
+      image: "/img/13.jpeg",
+      buttonText: "Lire les témoignages",
+      buttonLink: "/temoignages"
+    },
+    {
+      id: 14,
+      title: "Certifications professionnelles",
+      description: "Obtenez des certifications reconnues qui valorisent votre profil sur le marché du travail.",
+      image: "/img/14.jpeg",
+      buttonText: "Consulter les certifications",
+      buttonLink: "/certifications"
+    },
+    {
+      id: 15,
+      title: "Innovation pédagogique",
+      description: "Profitez de méthodes d’enseignement modernes, interactives et orientées projets pour une meilleure compréhension.",
+      image: "/img/15.jpeg",
+      buttonText: "Découvrir notre pédagogie",
+      buttonLink: "/pedagogie"
+    },
+    {
+      id: 16,
+      title: "Hackathons et compétitions",
+      description: "Mesurez-vous à d’autres étudiants lors d’événements innovants pour développer vos compétences et votre réseau.",
+      image: "/img/16.jpeg",
+      buttonText: "Voir les événements",
+      buttonLink: "/evenements"
+    },
+    {
+      id: 17,
+      title: "Campus connecté",
+      description: "Notre campus intelligent facilite l’accès aux services, à l'information et à la vie universitaire.",
+      image: "/img/17.jpeg",
+      buttonText: "Explorer les services",
+      buttonLink: "/services"
+    },
+    {
+      id: 18,
+      title: "Entrepreneuriat étudiant",
+      description: "Lancez vos idées grâce à notre incubateur et à un accompagnement dédié pour les jeunes entrepreneurs.",
+      image: "/img/18.jpeg",
+      buttonText: "Rejoindre l’incubateur",
+      buttonLink: "/incubateur"
+    },
+    {
+      id: 19,
+      title: "Égalité des chances",
+      description: "Nous œuvrons pour une éducation accessible à toutes et tous, quels que soient les parcours.",
+      image: "/img/19.jpeg",
+      buttonText: "Nos engagements",
+      buttonLink: "/egalite"
+    },
+    {
+      id: 20,
+      title: "Sécurité et bien-être",
+      description: "Des dispositifs sont mis en place pour garantir un environnement sain, sécurisé et bienveillant pour chacun.",
+      image: "/img/20.jpeg",
+      buttonText: "En savoir plus",
+      buttonLink: "/securite"
+    },
+    {
+      id: 21,
+      title: "Bourses et aides financières",
+      description: "Accédez à différentes aides pour financer vos études, sous conditions ou sur critères sociaux.",
+      image: "/img/21.jpeg",
+      buttonText: "Voir les dispositifs",
+      buttonLink: "/bourses"
+    },
+    {
+      id: 22,
+      title: "Activités sportives",
+      description: "Le sport fait partie intégrante de notre formation : compétitions, clubs et infrastructures dédiées.",
+      image: "/img/22.jpeg",
+      buttonText: "Découvrir le sport",
+      buttonLink: "/sport"
+    },
+    {
+      id: 23,
+      title: "Culture et expression",
+      description: "Exprimez vos talents artistiques à travers nos ateliers théâtre, photo, musique ou écriture.",
+      image: "/img/23.jpeg",
+      buttonText: "S’inscrire à un atelier",
+      buttonLink: "/culture"
+    },
+    {
+      id: 24,
+      title: "Orientation et insertion",
+      description: "Bénéficiez de notre service d’orientation pour construire un projet d’avenir clair et cohérent.",
+      image: "/img/24.jpeg",
+      buttonText: "Contacter un conseiller",
+      buttonLink: "/orientation"
+    },
+    {
+      id: 25,
+      title: "Partenaires institutionnels",
+      description: "Notre école collabore avec de nombreux acteurs publics et privés pour garantir la qualité de l’enseignement.",
+      image: "/img/25.jpeg",
+      buttonText: "Voir nos partenaires",
+      buttonLink: "/partenaires"
     }
   ];
+  
 
   return (
     <section className="py-20 bg-ama-light relative">

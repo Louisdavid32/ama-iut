@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
         <div className="lg:flex-1 mt-8 lg:mt-0 relative" data-aos="fade-in" data-aos-delay="300">
           <div className="relative z-10 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              src="/img/1.jpeg" 
               alt="Étudiants AMA" 
               className="w-full h-full object-cover"
             />
