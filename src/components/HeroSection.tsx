@@ -47,9 +47,11 @@ const HeroSection: React.FC = () => {
               Découvrir la formation
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 font-medium text-lg px-8 py-6">
-              <GalleryHorizontal className="mr-2" /> Demander une brochure
-            </Button>
+            <a href="/image.png" download>
+              <Button variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 font-medium text-lg px-8 py-6">
+                <GalleryHorizontal className="mr-2" /> Demander une brochure
+              </Button>
+            </a>
           </div>
         </div>
         

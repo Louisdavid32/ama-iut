@@ -91,7 +91,7 @@ const TimelineSection: React.FC = () => {
             <SkillBar name="Assistant de direction " percentage={90} />
             <SkillBar name="Management de projet" percentage={85} />
             <SkillBar name="Assistant commercial" percentage={80} />
-            <SkillBar name="Assistant marketin" percentage={75} />
+            <SkillBar name="Assistant marketing" percentage={75} />
           </div>
           
           <div className="flex flex-col justify-center space-y-6">
