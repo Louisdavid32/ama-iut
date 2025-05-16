@@ -39,21 +39,21 @@ const CampusSection: React.FC = () => {
           <div className="grid grid-cols-2 gap-4" data-aos="fade-in" data-aos-delay="300">
             <div className="rounded-xl overflow-hidden h-64 transform hover:scale-105 transition-transform">
               <img 
-                src="/img/8.jpeg"
+                src="/1.jpeg"
                 alt="Campus AMA" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 mt-8 transform hover:scale-105 transition-transform">
               <img 
-                src="/img/12.jpeg"
+                src="/2.jpeg"
                 alt="Équipements AMA" 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="rounded-xl overflow-hidden h-64 transform hover:scale-105 transition-transform">
               <img 
-                src="/img/22.jpeg"
+                src="/3.jpeg"
                 alt="Technologie AMA" 
                 className="w-full h-full object-cover"
               />
@@ -65,7 +65,7 @@ const CampusSection: React.FC = () => {
               loop 
               muted 
               playsInline 
-              poster="/img/11.jpeg"
+              poster="/4.jpeg"
             >
               <source src="/img/WhatsApp Video 2025-05-05 at 20.03.46.mp4" type="video/mp4" />
               Votre navigateur ne supporte pas la lecture de vidéos.

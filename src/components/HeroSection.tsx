@@ -34,12 +34,15 @@ const HeroSection: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Formez-vous à l'<span className="text-ama-gold">AMA</span>, une expertise d'avenir
+          La filière<span className="text-ama-gold">AMA</span>, une expertise d'avenir
           </h1>
-          
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
-            Développez des compétences recherchées et bâtissez votre carrière avec notre formation de pointe.
-            Notre école combine enseignement de qualité et approche pratique.
+              ''Assistant Manager'' est une formation qui prépare les
+            étudiants à occuper des postes de soutien et d'assistance aux
+            managers et aux directeurs dans les entreprises et les
+            organisations. Elle développe des compétences clés en
+            gestion, en communication et en leadership, et offre des
+            opportunités de carrière variées
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -58,7 +61,7 @@ const HeroSection: React.FC = () => {
         <div className="lg:flex-1 mt-8 lg:mt-0 relative" data-aos="fade-in" data-aos-delay="300">
           <div className="relative z-10 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="/img/1.jpeg" 
+              src="/8.jpeg" 
               alt="Étudiants AMA" 
               className="w-full h-full object-cover"
             />
