@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-          La filière<span className="text-ama-gold">AMA</span>, une expertise d'avenir
+          La filière <span className="text-ama-gold">AMA</span>, une expertise d'avenir
           </h1>
           <p className="text-xl text-white/90 mb-8 leading-relaxed">
               ''Assistant Manager'' est une formation qui prépare les
@@ -50,7 +50,7 @@ const HeroSection: React.FC = () => {
               Découvrir la formation
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <a href="/image.png" download>
+            <a href="/brochure.png" download>
               <Button variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 font-medium text-lg px-8 py-6">
                 <GalleryHorizontal className="mr-2" /> Demander une brochure
               </Button>
@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
         <div className="lg:flex-1 mt-8 lg:mt-0 relative" data-aos="fade-in" data-aos-delay="300">
           <div className="relative z-10 rounded-2xl overflow-hidden border-4 border-white/20 shadow-2xl transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="/8.jpeg" 
+              src="/it.png" 
               alt="Étudiants AMA" 
               className="w-full h-full object-cover"
             />
