@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-serif font-bold mb-6">
-              École <span className="text-ama-gold">AMA</span>
+            Filière <span className="text-ama-gold">AMA</span>
             </h3>
             <p className="text-gray-300 mb-6">
               Une formation d'excellence pour les métiers de demain.
